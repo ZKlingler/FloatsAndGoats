@@ -1,0 +1,114 @@
+html,body,h1,h2,h3,h4,ul,ol,li,p,a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body{
+background-color: #f3e8c4d5;
+font-family:'Poppins', sans-serif;
+}
+
+.nav {
+  top: 0;
+	height: 40;
+	font-size: 22px;
+	background-color: #fca21bef;
+	clear: both;
+	width: 100%;
+	text-align: center;
+  position: fixed;
+  z-index: 2;
+}
+
+.nav h1 {
+	float: left;
+	font-size: 20px;
+  color: white;
+  margin: 10px 30px;
+	
+	
+
+}
+
+.nav a{
+	float: right;
+	margin: 10px 5px;
+	color: white;
+  text-decoration: none;
+}
+
+.boxes{
+
+  position: relative;
+  padding: 20px;
+  margin: 30px;
+  margin-top: 40px;
+  display: inline;
+  float: left;
+}
+
+.dashboard{
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width: 300px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  float: left;
+  margin-right: 30px;
+}
+
+.budget{
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width: 300px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  float: left;
+  margin-right: 30px;
+}
+
+.checkbooks{
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width: 300px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  float: left;
+  margin-right: 30px;
+}
+
+.money{
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width: 300px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  float: left;
+  margin-right: 30px;
+}
+
+
+
+
+button{
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  background-color: #fca21bef;
+  margin: 10px auto;
+  display: block;
+  
+}
+button:hover{
+  background-color: #3ee03ed5 ;
+}
